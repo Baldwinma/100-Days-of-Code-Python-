@@ -25,13 +25,12 @@ def describe_ec2_instance():
     try:
         print("Describing EC2 Instance....")
         resource_ec2 = boto3.client("ec2")
-        print(resource_ec2.describe_instances()
-    )
+        print(resource_ec2.describe_instances())
+        #return str(resource_ec2.describe_instances())
+        #print(resource_ec2.describe_instaces)["InstaceId"]
+    
     except Exception as e:
-        print("e")
-
-instance_id = describe_ec2_instance()
-
+        print("exception error")
 
 #create_ec2_instance()
 describe_ec2_instance()
