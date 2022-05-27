@@ -1,4 +1,7 @@
 # Lets create EC2 instances using Python BOTO3
+#First go ahead and install boto3 package and aws cli
+#Create IAM user with EC2 privilege
+#run aws confgure in terminal and input IAM access key and other info
 
 import boto3
 
