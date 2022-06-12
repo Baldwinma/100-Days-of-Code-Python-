@@ -82,3 +82,5 @@ def terminate_ec2_instance():
 #stop_ec2_instance()
 #start_ec2_instance()
 #terminate_ec2_instance()
+
+print("Hello from Python")
