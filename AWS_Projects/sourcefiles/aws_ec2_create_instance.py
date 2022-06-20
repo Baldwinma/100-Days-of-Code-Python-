@@ -76,7 +76,7 @@ def terminate_ec2_instance():
         print(e)
 
 
-#create_ec2_instance()
+create_ec2_instance()
 #describe_ec2_instance()
 #reboot_ec2_instance()
 #stop_ec2_instance()
